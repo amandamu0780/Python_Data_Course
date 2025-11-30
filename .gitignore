@@ -1,0 +1,12 @@
+*.csv
+*.xlsx
+*.xls
+*.sql
+*.pkl
+*.parquet
+*.db
+*.feather
+*.json
+*.txt
+2_Advanced/*.csv
+2_Advanced/*.xlsx
