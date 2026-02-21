@@ -49,7 +49,7 @@ df_US = df[df['job_country'] == 'United States']
 
 To find the most demanded skills for the top 3 most popular roles. O filteres out those positions by which ones were most popular, and got the top 5 skills for these top 3 roles. This query shows which skills I should be learning based on the role I would like to get in my future.
 
-View my notebook with detailed steps here: [2_Skills_Count.ipynb](3_Project\2_Skills_Count.ipynb)
+View my notebook with detailed steps here: [2_Skills_Count.ipynb](3_Project/2_Skills_Count.ipynb)
 
 ### Visualize Data
 
@@ -77,9 +77,11 @@ plt.show()
 - Data Engineers are expected to possess more advanced technical expertise, including cloud and big-data technologies such as AWS, Azure, and Spark. In contrast, Data Scientists and Data Analysts rely more heavily on data management and visualization tools, with strong demand for skills such as Tableau and Excel.-Python is the most predomintaly demanded skill for Data Scientists with a 72% and then Data Engineers with a 65%
 
 ## 2. How are in-demand skills trending for Data Analysts? 
-To see how data analyst skills changed throughout 2023, I focused only on data analyst job postings and tracked which skills showed up the most each month. By grouping the skills by month, I pulled out the top five skills for every month of the year. This helped me see which skills were consistently popular and how demand shifted over time.
 
 View my notebook with detailed steps here: [3_Skills_Trend.ipynb](3_Project/3_Skills_Trend.ipynb)
+
+To see how data analyst skills changed throughout 2023, I focused only on data analyst job postings and tracked which skills showed up the most each month. By grouping the skills by month, I pulled out the top five skills for every month of the year. This helped me see which skills were consistently popular and how demand shifted over time.
+
 
 ### Visualize Data
 
