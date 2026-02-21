@@ -49,7 +49,7 @@ df_US = df[df['job_country'] == 'United States']
 
 To find the most demanded skills for the top 3 most popular roles. O filteres out those positions by which ones were most popular, and got the top 5 skills for these top 3 roles. This query shows which skills I should be learning based on the role I would like to get in my future.
 
-View my notebook with detailed steps here: [2_Skills_Count.ipynb](C:\Users\frant\Phyton_Data_Course\3_Project\2_Skills_Count.ipynb)
+View my notebook with detailed steps here: [2_Skills_Count.ipynb](3_Project\2_Skills_Count.ipynb)
 
 ### Visualize Data
 
@@ -67,7 +67,7 @@ plt.show()
 
 ### Results
 
-![Visualization of Top skills](Images\Skill_demand_percent.png)
+![Visualization of Top skills](Images/Skill_demand_percent.png)
 
 ### Insights
 - SQL emerges as the most valuable skill across the top three data-related roles, remaining consistently in demand regardless of the level of technical complexity required.
@@ -79,7 +79,7 @@ plt.show()
 ## 2. How are in-demand skills trending for Data Analysts? 
 To see how data analyst skills changed throughout 2023, I focused only on data analyst job postings and tracked which skills showed up the most each month. By grouping the skills by month, I pulled out the top five skills for every month of the year. This helped me see which skills were consistently popular and how demand shifted over time.
 
-View my notebook with detailed steps here: [2_Skills_Count.ipynb](3_Project\2_Skills_Count.ipynb)
+View my notebook with detailed steps here: [3_Skills_Trend.ipynb](3_Project/3_Skills_Trend.ipynb)
 
 ### Visualize Data
 
@@ -106,7 +106,7 @@ for i in range(5):
 ```
 ###  Results
 
-![Visualization of Skill Trends](Images\Skill_trend.png)
+![Visualization of Skill Trends](Images/Skill_trend.png)
 
 ### Insights 
 
@@ -122,7 +122,7 @@ for i in range(5):
 
 To figure out which roles and skills pay the most, I focused only on jobs in the United States and compared their median salaries. Before diving into specific skills, I first looked at how salaries differ across common data roles—like Data Scientist, Data Engineer, and Data Analyst—to get a general sense of which positions tend to pay more overall.
 
-View my notebook with detailed steps here: [3_Skills_Trend.ipynb](3_Project\3_Skills_Trend.ipynb)
+View my notebook with detailed steps here: [4_Salary_Analysis.ipynb](3_Project/4_Salary_Analysis.ipynb)
 
 
 ### Visualize Data
@@ -142,7 +142,7 @@ plt.show()
 
 ### Results
 
-![Visualization of  Jobs Median Salary](Images\Job_Salary.png)
+![Visualization of  Jobs Median Salary](Images/Job_Salary.png)
 
 #### Insights
 
@@ -153,7 +153,7 @@ plt.show()
 - Data Analyst roles have a lower median salary overall compared to Data Scientist and Data Engineer roles which might required more technical skills and sophistacated studies or experience. 
 
 ## Salary Analysis(Skills)
-View my notebook with detailed steps here: [4_Salary_Analysis.ipynb](3_Project\4_Salary_Analysis.ipynb)
+View my notebook with detailed steps here: [4_Salary_Analysis.ipynb](3_Project/4_Salary_Analysis.ipynb)
 
 ### Visualize Data
 
@@ -190,7 +190,7 @@ plt.show()
 
 ### Results
 
-![Visualization of  Jobs Median Salary](Images\Skills_Salary.png)
+![Visualization of  Jobs Median Salary](Images/Skills_Salary.png)
 
 #### Insights
 - The top graph shows that more technical skills like dplyr, Bitbucket, and GitLab have higher salaries (around $200K per year), given the level of expertise needed to use them as efficiently as possible.
@@ -200,7 +200,7 @@ plt.show()
 - Joining both of these results, the recommendation would be to start with the basics, and if you have the ambition for a higher-paying job in the future, consider learning more knowledge- and expertise-heavy skills.
 
 ## 4. Optimal skills for Data Analysts in the US
-View my notebook with detailed steps here: [4_Salary_Analysis.ipynb](3_Project\5_Optimal_Skills.ipynb)
+View my notebook with detailed steps here: [5_Optimal_Skills.ipynb](3_Project/5_Optimal_Skills.ipynb)
 
 ## What is the most optimal skill to learn for Data Analysts 
 
@@ -232,7 +232,7 @@ for i, txt in enumerate(df_DA_skills_high_demand.index):
 ```
 ### Results
 
-![Visualization of Optimal skills](Images\Optimal_Skills.png)
+![Visualization of Optimal skills](Images/Optimal_Skills.png)
 
 ### Insights
 - Python appears to be the highest-paying and one of the most in-demand skills, with a median yearly salary of about $97,000 and demand around 35%. This suggests a strong need to focus on learning the core concepts of Python for those looking to succeed in the data analytics job market.
